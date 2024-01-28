@@ -1,0 +1,48 @@
+/* hotel.css */
+
+.hotel-recommendations {
+  font-family: Arial, sans-serif;
+
+  padding: 20px;
+}
+
+.hotel-list {
+  /* border: red 1px solid; */
+  display: flex;
+  flex-wrap: wrap;  
+  gap: 40px; 
+}
+
+.hotel-card {
+  background-color: #f5f5f5;
+
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: calc(20% - 20px); /* Adjust width based on number of columns */
+}
+
+.hotel-card h3 {
+  margin-bottom: 10px;
+}
+
+.hotel-card p {
+  margin: 5px 0;
+}
+
+.hotel-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hotel-rating {
+  font-style: italic;
+}
+
+.guest-recommendation {
+  font-weight: bold;
+}
+
+.hotel-description {
+  color: #666;
+}
